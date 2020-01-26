@@ -1,0 +1,242 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Finding Nationwide Mortgages",
+    "line": 1,
+    "id": "finding-nationwide-mortgages",
+    "tags": [],
+    "uri": "target\\test\\features\\nationwideMortgage.feature",
+    "elements": [
+      {
+        "id": "finding-nationwide-mortgages;verify-user-able-to-navigate-to-mortgage-pagee",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify User able to navigate to Mortgage Pagee",
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "target\\support\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Nationwide home page",
+            "match": {
+              "location": "target\\stepdefinitions\\nationwideHomePageSD.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I hover mouse on \"Mortgages\" top navigation",
+            "match": {
+              "location": "target\\stepdefinitions\\nationwideHomePageSD.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Iclick on \"Mortgage rates\" sub navigation",
+            "match": {
+              "location": "target\\stepdefinitions\\nationwideHomePageSD.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on mortageNo option",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on first time buy option",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter property value \"300000\"",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter Mortgage amount \"150000\"",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter terms of year \"30\"",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I selected help to buy option",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on Find mortgage button",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I selected the Mortgage type as fixed rate",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I selected the Product Fee as with Fee",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I expanded the more details info",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I selected the Fiveyears fixed mortgage",
+            "match": {
+              "location": "target\\stepdefinitions\\mortgagePageSD.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "target\\support\\hooks.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
